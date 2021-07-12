@@ -1,0 +1,4 @@
+Resources for Graham Scan research:
+ - https://en.wikipedia.org/wiki/Graham_scan
+ - http://personal.kent.edu/~rmuhamma/Compgeometry/MyCG/ConvexHull/GrahamScan/grahamScan.htm
+ 

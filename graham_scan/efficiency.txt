@@ -1,0 +1,10 @@
+Graham Scan efficiency report:
+ - The time complexity of the Graham Scan algorithm is O(n log n) at worst case
+ - This performance time is based on the time to sort points based on either a single coordinate in the set or based off of the angle to a fixed vector. Once the sort has been completed, the actual convex hull portion of the algorithm operates with a time complexity of O(n).
+ - This implies that the best case for the Graham Scan algorithm is O(n) if the set of points are already sorted.
+ - Doubling method analysis:
+    > Time to perform on 100k points: 0.4680 seconds
+    > Time to perform on 200k points: 1.4445 seconds
+    > T(n)/T(2n) = 0.4680/1.4445 = 0.3239
+    > Theoretical(n)/Theoretical(2n) = 100000*log(100000)/200000*log(200000) = 0.4716
+    > So by the doubling method, the actual runtime for the graham scan using a set of randomly distributed points is faster than the theoretical runtime.
